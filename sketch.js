@@ -19,14 +19,14 @@ class Walker {
   show() {
     noFill(0);
     stroke(0, 25);
-    ellipse(this.x, this.y, 8, 8);
+    ellipse(this.x, this.y, 16, 16);
   }
 }
 
 let walker;
 
 function setup() {
-  createCanvas(width, height);
+  createCanvas(1920, 1080);
   walker = new Walker();
   background(255);
 }
