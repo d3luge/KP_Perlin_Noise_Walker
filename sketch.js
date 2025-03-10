@@ -26,7 +26,7 @@ class Walker {
 let walker;
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(width, height);
   walker = new Walker();
   background(255);
 }
